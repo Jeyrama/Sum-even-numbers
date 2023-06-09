@@ -19,3 +19,5 @@ function sumEvenNumbers(input) {
     return a + b;
   });
 }
+
+// or
