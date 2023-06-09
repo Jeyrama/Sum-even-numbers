@@ -12,3 +12,10 @@ Example:
 
 // Solution
 
+function sumEvenNumbers(input) {
+  return input.filter(function(el) {
+    return el % 2 == 0;
+  }).reduce(function(a, b) {
+    return a + b;
+  });
+}
